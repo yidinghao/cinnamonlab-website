@@ -16,6 +16,7 @@
   orcid: 0000-0001-8033-0242
   plugin: sources.py
   file: sources.yaml
+  tags: ai-society
 - id: doi:10.18653/v1/2025.naacl-long.159
   title: 'ERAS: Evaluating the Robustness of Chinese NLP Models to Morphological Garden
     Path Errors'
@@ -25,6 +26,7 @@
   publisher: NAACL
   date: '2025-04-30'
   link: https://doi.org/hbgs6p
+  tags: ling-eval
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/2025.naacl-long.109
@@ -38,6 +40,10 @@
   publisher: NAACL
   date: '2025-05-01'
   link: https://doi.org/hbgs6r
+  tags:
+  - ling-eval
+  - linguistics
+  - foundations
   plugin: sources.py
   file: sources.yaml
 - title: Generative linguistics, Large Language Models, and the social nature of scientific
@@ -46,6 +52,9 @@
   publisher: Italian Journal of Linguistics
   date: '2025-07-01'
   link: https://www.italian-journal-linguistics.com/app/uploads/2025/09/06-Hao.pdf
+  tags:
+  - linguistics
+  - foundations
   plugin: sources.py
   file: sources.yaml
 - title: 'Reflecting the Male Gaze: Quantifying Female Objectification in 19th and
@@ -58,6 +67,7 @@
   publisher: LREC-Coling
   date: '2024-05-22'
   link: https://aclanthology.org/2024.lrec-main.1205
+  tags: ai-society
   plugin: sources.py
   file: sources.yaml
 - title: 'Beyond the imitation game: Quantifying and extrapolating the capabilities
@@ -67,6 +77,7 @@
   publisher: TMLR
   date: '2023-05-11'
   link: https://openreview.net/forum?id=uyTL5Bvosj
+  tags: ling-eval
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1162/coli_a_00494
@@ -76,6 +87,10 @@
   publisher: CL
   date: '2024-03-01'
   link: https://doi.org/hbgs6s
+  tags:
+  - linguistics
+  - formal-analysis
+  - foundations
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/2023.findings-emnlp.300
@@ -87,6 +102,9 @@
   publisher: EMNLP Findings
   date: '2023-12-08'
   link: https://doi.org/hbgs6t
+  tags:
+  - probing-causality
+  - ling-eval
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1162/tacl_a_00490
@@ -99,6 +117,8 @@
   publisher: TACL
   date: '2022-07-27'
   link: https://doi.org/hbgs6v
+  tags:
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
 - title: Theory and Applications of Attribution for Interpretable Language Technology
@@ -106,6 +126,9 @@
   authors: Sophie Hao
   date: '2022-07-01'
   link: https://elischolar.library.yale.edu/gsas_dissertations/839/
+  tags:
+  - probing-causality
+  - foundations
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2201.00912
@@ -116,6 +139,8 @@
   publisher: AAAI-22 AdvML Workshop
   date: '2022-02-28'
   link: https://arxiv.org/abs/2201.00912
+  tags:
+  - ling-eval
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/2020.blackboxnlp-1.28
@@ -124,6 +149,9 @@
   publisher: BlackboxNLP
   date: '2020-11-20'
   link: https://doi.org/hbgs6w
+  tags:
+  - probing-causality
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/2020.cmcl-1.10
@@ -138,6 +166,9 @@
   publisher: CMCL
   date: '2020-11-19'
   link: https://doi.org/hbgs8n
+  tags:
+  - ling-eval
+  - linguistics
   plugin: sources.py
   file: sources.yaml
 - title: Rhythmic Syncope in Subregular Phonology
@@ -147,6 +178,9 @@
   - Sophie Hao
   date: '2020-10-01'
   link: https://repository.upenn.edu/entities/publication/f95759d2-36d4-497a-abda-42c9bd60cda6
+  tags:
+  - linguistics
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3765/amp.v8i0.4752
@@ -158,6 +192,9 @@
   publisher: Annual Meeting on Phonology
   date: '2020-05-02'
   link: https://doi.org/hbgxvw
+  tags:
+  - linguistics
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2005.00062
@@ -166,6 +203,8 @@
   publisher: arXiv
   date: '2020-05-04'
   link: https://arxiv.org/abs/2005.00062
+  tags:
+  - probing-causality
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.7275/scil.1227
@@ -174,6 +213,9 @@
   publisher: SCiL
   date: '2020-01-04'
   link: https://doi.org/hbgxv2
+  tags:
+  - linguistics
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.15398/jlm.v7i2.210
@@ -182,6 +224,10 @@
   publisher: Journal of Language Modelling
   date: '2019-09-16'
   link: https://doi.org/hbgtcs
+  tags:
+  - linguistics
+  - formal-analysis
+  - foundations
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/W19-4216
@@ -192,9 +238,12 @@
   publisher: SIGMORPHON
   date: '2019-08-02'
   link: https://doi.org/hbgtcv
+  tags:
+  - linguistics
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
-- id: 10.18653/v1/W19-4823
+- id: doi:10.18653/v1/W19-4823
   title: Finding Hierarchical Structure in Neural Stacks Using Unsupervised Parsing
   authors:
   - William Merrill
@@ -206,6 +255,9 @@
   publisher: BlackboxNLP
   date: '2019-08-01'
   link: https://doi.org/hbgtcw
+  tags:
+  - formal-analysis
+  - probing-causality
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/W19-4225
@@ -216,6 +268,9 @@
   publisher: SIGMORPHON
   date: '2019-08-02'
   link: https://doi.org/hbgxv6
+  tags:
+  - linguistics
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.7275/1qmz-bg76
@@ -225,9 +280,13 @@
   publisher: SCiL
   date: '2019-01-05'
   link: https://doi.org/hbgxv7
+  tags:
+  - linguistics
+  - formal-analysis
+  - foundations
   plugin: sources.py
   file: sources.yaml
-- id: 10.18653/v1/W18-5433
+- id: doi:10.18653/v1/W18-5433
   title: Context-Free Transductions with Neural Stacks
   authors:
   - Sophie Hao
@@ -240,6 +299,34 @@
   publisher: BlackboxNLP
   date: '2018-11-01'
   link: https://doi.org/hbgtcx
+  tags:
+  - formal-analysis
+  - probing-causality
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18653/v1/W17-4003
+  title: Harmonic Serialism and Finite-State Optimality Theory
+  authors:
+  - Sophie Hao
+  publisher: FSMNLP
+  date: '2017-01-01'
+  link: null
+  tags:
+  - linguistics
+  - formal-analysis
+  - foundations
+  description: '**Important:** The main result of this paper is incorrect. Please
+    see [Hao (2019)](https://doi.org/hbgtcs) for the corrected version.'
+  plugin: sources.py
+  file: sources.yaml
+- title: Model-Theoretic Minimalism
+  publisher: BA Thesis
+  authors: Sophie Hao
+  date: '2015-05-14'
+  tags:
+  - linguistics
+  - formal-analysis
+  - foundations
   plugin: sources.py
   file: sources.yaml
 - title: 'The peril of sounding manly: A look at vocal characteristics of lawyers
@@ -255,5 +342,17 @@
   - Daniel Chen
   date: '2014-07-27'
   link: https://users.nber.org/~dlchen/papers/Investigating_Variation_in_English_slides.pdf
+  tags:
+  - linguistics
+  plugin: sources.py
+  file: sources.yaml
+- title: "The Dimension and Entropy of \u03C9-Languages"
+  publisher: Manuscript
+  authors:
+  - Sophie Hao
+  date: '2013-07-29'
+  link: https://math.uchicago.edu/~may/REU2013/REUPapers/Hao.pdf
+  tags:
+  - formal-analysis
   plugin: sources.py
   file: sources.yaml
