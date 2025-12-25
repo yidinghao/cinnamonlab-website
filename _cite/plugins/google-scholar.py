@@ -43,12 +43,12 @@ def main(entry):
         # create source
         year = get_safe(work, "year", "")
         source = {
-            "id": get_safe(work, "citation_id", ""),
+            # "id": get_safe(work, "citation_id", ""),
             # api does not provide Manubot-citeable id, so keep citation details
             "title": get_safe(work, "title", ""),
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
-            "date": (year + "-01-01") if year else "",
+            "date": (year) if year else "",
             "link": get_safe(work, "link", ""),
         }
 

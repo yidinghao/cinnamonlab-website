@@ -1,47 +1,41 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Analysis of Representations
+  subtitle: probing, feature attribution, causality
+  description: Analyzing what information is encoded by neural representations and how they drive model behavior
+  link: research/?search="tag:%20probing-causality"
   tags:
-    - resource
+    - probing-causality
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Linguistic Evaluation
+  subtitle: behavioral tests, psycholinguistic modeling
+  description: Assessing the linguistic abilities of language models and comparing them to human language processing
+  link: research/?search="tag:%20ling-eval"
   tags:
-    - resource
+    - ling-eval
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Theory of Architectures
+  subtitle: formal language theory, computational complexity
+  description: Describing the expressive power of architectures for neural networks and linguistic theories
+  link: research/?search="tag:%20formal-analysis"
   tags:
-    - resource
-    - publication
+    - formal-analysis
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Theoretical Linguistics
+  subtitle: syntax, phonology, psycholinguistics
+  description: Gaining insights about human language and linguistics using computational techniques
+  link: research/?search="tag:%20linguistics"
   tags:
-    - software
+    - linguistics
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: AI and Society
+  subtitle: bias, fairness, humanities and social science
+  description: Understanding AI's relation to society; applying AI to the humanities and social sciences
+  link: research/?search="tag:%20ai-society"
   tags:
-    - software
+    - ai-society
+
+- title: Foundations of CL/NLP
+  subtitle: position papers, metatheory, philosophy of science
+  description: Reflecting on what computational linguistics is, why we do it, and how we ought to do it
+  link: research/?search="tag:%20foundations"
+  tags:
+    - foundations
