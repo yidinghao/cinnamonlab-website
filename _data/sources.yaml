@@ -1,23 +1,185 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+# ModelCitizens
+- id: doi:10.18653/v1/2025.emnlp-main.1571
+  publisher: EMNLP
+  date: 2025-11-5
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+# ERAS
+- id: doi:10.18653/v1/2025.naacl-long.159
+  publisher: NAACL
+  date: 2025-4-30
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+# MORCELA
+- id: doi:10.18653/v1/2025.naacl-long.109
+  publisher: NAACL
+  date: 2025-5-1
+
+# Italian Journal of Linguistics
+# - id: doi:10.26346/1120-2726-242
+- title: "Generative linguistics, Large Language Models, and the social nature of scientific success"
+  authors: Sophie Hao
+  publisher: Italian Journal of Linguistics
+  date: '2025-7-1'
+  link: https://www.italian-journal-linguistics.com/app/uploads/2025/09/06-Hao.pdf
+
+# Male Gaze
+- title: "Reflecting the Male Gaze: Quantifying Female Objectification in 19th and 20th Century Novels"
+  authors:
+    - Kexin Luo 
+    - Yue Mao 
+    - Bei Zhang
+    - Sophie Hao
+  publisher: LREC-Coling
+  date: 2024-5-22
+  link: https://aclanthology.org/2024.lrec-main.1205
+
+# BigBench
+- title: "Beyond the imitation game: Quantifying and extrapolating the capabilities of language models"
+  authors: "Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Sophie Hao, 446 other authors"
+  publisher: TMLR
+  date: 2023-5-11
+  link: https://openreview.net/forum?id=uyTL5Bvosj
+
+
+# PSPACE
+- id: doi:10.1162/coli_a_00494
+  publisher: CL
+  date: 2024-3-1
+
+# Tal
+- id: doi:10.18653/v1/2023.findings-emnlp.300
+  publisher: EMNLP Findings
+  date: 2023-12-8
+
+# AC0
+- id: doi:10.1162/tacl_a_00490
+  publisher: TACL
+  authors: 
+    - Sophie Hao
+    - Dana Angluin
+    - Robert Frank
+  date: 2022-7-27
+
+# Dissertation
+- title: Theory and Applications of Attribution for Interpretable Language Technology
+  publisher: PhD Dissertation
+  authors: Sophie Hao
+  date: 2022-7-1
+  link: https://elischolar.library.yale.edu/gsas_dissertations/839/
+
+# LJ
+- id: arxiv:2201.00912
+  publisher: AAAI-22 AdvML Workshop
+  authors: 
+    - Lorenzo Jaime Yu Flores
+    - Sophie Hao
+  date: 2022-2-28
+
+# Whitebox
+- id: doi:10.18653/v1/2020.blackboxnlp-1.28
+  publisher: BlackboxNLP
+  authors: Sophie Hao
+  date: 2020-11-20
+
+# CMCL
+- id: doi:10.18653/v1/2020.cmcl-1.10
+  publisher: CMCL  
+  authors:
+    - Sophie Hao
+    - Simon Mendelsohn
+    - Rachel Sterneck
+    - Randi Martinez
+    - Robert Frank
+  date: 2020-11-19
+
+# Dustin PLC
+- title: Rhythmic Syncope in Subregular Phonology
+  publisher: Penn Linguistics Conference
+  authors:
+    - Dustin Bowers
+    - Sophie Hao
+  date: 2020-10-01
+  link: https://repository.upenn.edu/entities/publication/f95759d2-36d4-497a-abda-42c9bd60cda6
+
+# Hossep
+- id: doi:10.3765/amp.v8i0.4752
+  publisher: Annual Meeting on Phonology
+  authors:
+    - Vendala Ruby
+    - Hossep Dolatian
+    - Sophie Hao 
+
+# Attribution
+- id: arxiv:2005.00062
+  authors: Sophie Hao
+
+# Metrical Grids
+- id: doi:10.7275/scil.1227
+  publisher: SCiL
+  authors: Sophie Hao
+  date: 2020-1-4
+
+# JLM
+- id: doi:10.15398/jlm.v7i2.210
+  authors: Sophie Hao
+
+# Maritime
+- id: doi:10.18653/v1/W19-4216
+  publisher: SIGMORPHON
+  authors:
+    - Sophie Hao
+    - Vendala Ruby
+  date: 2019-8-2
+
+# Stacks Part 2
+- id: 10.18653/v1/W19-4823
+  publisher: BlackboxNLP
+  authors: 
+    - William Merrill
+    - Lenny Khazan
+    - Noah Amsel
+    - Sophie Hao
+    - Simon Mendelsohn
+    - Robert Frank
+  date: 2019-8-1
+
+# Dustin Sigmorphon
+- id: doi:10.18653/v1/W19-4225
+  publisher: SIGMORPHON
+  authors:
+    - Sophie Hao
+    - Dustin Bowers
+  date: 2019-8-2
+
+# Scil Overgeneration
+- id: doi:10.7275/1qmz-bg76
+  publisher: SCiL
+  authors:
+    - Sophie Hao
+  date: 2019-1-5
+
+# Stacks Part 1
+- id: 10.18653/v1/W18-5433
+  publisher: BlackboxNLP
+  authors: 
+    - Sophie Hao
+    - William Merrill
+    - Dana Angluin
+    - Robert Frank
+    - Noah Amsel
+    - Andrew Benz
+    - Simon Mendelsohn
+  date: 2018-11-1
+
+# LabPhon
+- title: "The peril of sounding manly: A look at vocal characteristics of lawyers before the United States Supreme Court"
+  publisher: LabPhon
+  authors:
+    - Alan C. L. Yu
+    - Katie Franich
+    - Jacob Phillips
+    - Betsy Pillion
+    - Sophie Hao
+    - Zhigang Yin
+    - Daniel Chen
+  date: 2014-7-27
+  link: https://users.nber.org/~dlchen/papers/Investigating_Variation_in_English_slides.pdf
