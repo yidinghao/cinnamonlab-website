@@ -1,6 +1,7 @@
 ---
 name: Sophie Hao
 image: images/people/sophie_ghibli.jpg
+image-small: images/people/sophie_ghibli_small.jpg
 role: principal-investigator
 affiliation: Linguistics/CDS
 links:

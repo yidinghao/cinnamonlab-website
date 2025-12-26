@@ -23,7 +23,11 @@
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      {% if member.image-small and include.style == "tiny" %}
+        src="{{ member.image-small | relative_url | uri_escape }}"
+      {% else %}
+        src="{{ member.image | relative_url | uri_escape }}"
+      {% endif %}
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
