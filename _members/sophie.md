@@ -1,8 +1,8 @@
 ---
 name: Sophie Hao
-image: images/cinnalab_nobg.png
+image: images/people/sophie_ghibli.jpg
 role: principal-investigator
-affiliation: BU Linguistics/CDS
+affiliation: Linguistics/CDS
 links:
   home-page: https://www.notaphonologist.com
   # orcid: 0000-0001-8033-0242
