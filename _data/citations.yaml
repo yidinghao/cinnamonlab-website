@@ -17,6 +17,7 @@
   plugin: sources.py
   file: sources.yaml
   tags: ai-society
+  presenter: Sophie Hao
 - id: doi:10.18653/v1/2025.naacl-long.159
   title: 'ERAS: Evaluating the Robustness of Chinese NLP Models to Morphological Garden
     Path Errors'
@@ -27,6 +28,7 @@
   date: '2025-04-30'
   link: https://doi.org/hbgs6p
   tags: ling-eval
+  presenter: Qinchan Li
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.18653/v1/2025.naacl-long.109
@@ -68,6 +70,7 @@
   date: '2024-05-22'
   link: https://aclanthology.org/2024.lrec-main.1205
   tags: ai-society
+  presenter: Sophie Hao
   plugin: sources.py
   file: sources.yaml
 - title: 'Beyond the imitation game: Quantifying and extrapolating the capabilities
