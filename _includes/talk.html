@@ -1,0 +1,101 @@
+{{ " " }}
+<div class="citation-container">
+  <div class="citation">
+    <!-- Picture -->
+    {% if include.style == "rich" %}
+      <a
+        {% if include.link %}
+          href="{{ include.link | relative_url | uri_escape }}"
+        {% endif %}
+        class="citation-image"
+        aria-label="{{ include.title | default: "citation link" | regex_strip }}"
+      >
+        <img
+          src="{{ include.image | relative_url | uri_escape }}"
+          alt="{{ include.title | default: "citation image" | regex_strip }}"
+          loading="lazy"
+          {% include fallback.html %}
+        >
+      </a>
+    {% endif %}
+
+    <div class="citation-text">
+      <!-- Icon -->
+      {% assign type = site.data.types[include.type] %}
+      {% include icon.html icon=type.icon %}
+
+      <!-- Title -->
+      <a
+        {% if include.link %}
+          href="{{ include.link | relative_url | xml_escape }}"
+        {% endif %}
+        class="citation-title"
+      >
+        {{ include.title | default: "[no title info]" }}
+      </a>
+
+      <!-- Authors -->
+      <div
+        class="citation-authors"
+        {% if include.presenter.size > 10 %}
+          data-tooltip="{{ include.presenter | join: ", " | xml_escape }}"
+        {% endif %}
+        tabindex="0"
+      >
+        {{
+          include.presenter
+          | join: ","
+          | split: ","
+          | array_carve: 5
+          | join: ", "
+          | markdownify
+          | remove: "<p>" | remove: "</p>"
+          | default: "[no author info]"
+        }}
+      </div>
+
+      <!-- Publisher, Date -->
+      <div class="citation-details">
+        <span class="citation-publisher">
+          {{- include.publisher | default: "[no publisher info]" -}}
+        </span>
+        &nbsp;·&nbsp;
+        <span class="citation-date">
+          {{- include.date | default: "[no date info]" | date: "%d %b %Y" -}}
+        </span>
+      </div>
+
+      {% if include.style == "rich" %}
+        {% if include.description %}
+          <div class="citation-description">
+            {{
+              include.description
+              | markdownify
+              | remove: "<p>"
+              | remove: "</p>"
+            }}
+          </div>
+        {% endif %}
+
+        {% if include.buttons.size > 0 %}
+          <div class="citation-buttons">
+            {% for button in include.buttons %}
+              {%
+                include button.html
+                type=button.type
+                icon=button.icon
+                text=button.text
+                link=button.link
+                style="bare"
+              %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if include.tags.size > 0 or include.repo %}
+          {% include tags.html tags=include.tags repo=include.repo %}
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</div>

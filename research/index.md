@@ -14,7 +14,6 @@ Cinnamonlab conducts cutting-edge research in computational linguistics, interpr
 {% include list.html component="card" data="projects" style="small" %}
 
 {% include section.html %}
-
 ## Publications
 
 {% include search-box.html %}
@@ -22,3 +21,8 @@ Cinnamonlab conducts cutting-edge research in computational linguistics, interpr
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
+
+{% include section.html %}
+## Invited Talks
+
+{% include list.html data="talks" component="talk" style="rich" %}
