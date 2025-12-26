@@ -1,6 +1,7 @@
 ---
 name: Betty Li Hou
-image: images/cinnalab_nobg.png
+image: images/people/betty_ghibli.jpg
+image-small: images/people/betty_ghibli_small.jpg
 role: phd
 affiliation: New York University
 # group: alum
