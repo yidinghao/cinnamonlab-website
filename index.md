@@ -68,5 +68,5 @@ Our research focuses on six thematic areas: analysis of representations, linguis
 {% include section.html %}
 ## Learn More
 
-See our [NAQs (never-asked questions)](2025/12/24/about.html).
+See our [NAQs (never-asked questions)](2025/12/24/naq.html).
 
