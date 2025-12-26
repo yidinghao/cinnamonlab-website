@@ -1,0 +1,12 @@
+{% assign news = site.data.citations 
+    | concat: site.data.talks 
+    | where_exp: "item", "item.presenter"
+    | sort: "date"
+    | reverse
+%}
+
+<ul>
+{% for n in news limit:5 %}
+    <li><strong>{{ n.date | date: "%b %-d, %Y" }}:</strong> {{ n.presenter }} presents at {{ n.publisher }}!</li>
+{% endfor %}
+</ul>

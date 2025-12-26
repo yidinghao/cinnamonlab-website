@@ -3,15 +3,13 @@
 
 # Welcome
 
-Cinnamonlab is a computational linguistics research group at Boston University led by [Sophie Hao](https://www.notaphonologist.com). Cinnamonlab takes an interdisciplinary approach to language model interpretability and its applications, incorporating ideas and perspectives from across the sciences, social sciences, and humanities. Research areas include:
-- probing, neural representations, feature attribution
-- linguistic evaluation and psycholinguistic modeling
-- theory of computation, analysis of neural architectures
-- generative linguistics, syntax, phonology, mathematical linguistics
-- bias, fairness, digital humanities and social science
-- theoretical foundations of NLP and computational linguistics.
+Cinnamonlab is a computational linguistics research group at Boston University led by [Sophie Hao](https://www.notaphonologist.com). Cinnamonlab takes an interdisciplinary approach to language model interpretability and its applications, incorporating ideas and perspectives from across the sciences, social sciences, and humanities. Our goal is to develop a linguistics of neural language models.
 
-Cinnamonlab is affiliated with the [Department of Linguistics](https://www.bu.edu/linguistics/) and the SALAMI Consortium.
+Cinnamonlab is affiliated with the [Department of Linguistics](https://www.bu.edu/linguistics/), the [Faculty of Computing and Data Sciences](https://www.bu.edu/cds/), and the SALAMI Consortium.
+
+## News
+{% include news.html %}
+
 
 {% include section.html %}
 
@@ -20,7 +18,7 @@ Cinnamonlab is affiliated with the [Department of Linguistics](https://www.bu.ed
 <!-- People -->
 {% capture text %}
 
-Cinnamonlab members come from all parts of BU—including the Department of Linguistics and the Faculty of Computing and Data Sciences—as well as external institutions.
+Cinnamonlab members come from BU's Department of Linguistics and Faculty of Computing and Data Sciences, as well as external institutions.
 
 {%
   include button.html
@@ -35,7 +33,7 @@ Cinnamonlab members come from all parts of BU—including the Department of Ling
 
 {%
   include feature.html
-  image="images/stock_photo_students2_ghibli.jpg"
+  image="images/stock_photo_students2_ghibli_small.jpg"
   link="team"
   title="People"
   text=text
@@ -45,7 +43,7 @@ Cinnamonlab members come from all parts of BU—including the Department of Ling
 
 {% capture text %}
  
-Cinnamonlab conducts cutting-edge research in computational linguistics, AI interpretability, and social aspects of AI using a diverse range of interdisciplinary methods and perspectives. 
+Our research focuses on six thematic areas: analysis of representations, linguistic evaluation, theory of architectures, theoretical linguistics, AI and society, and foundations of computational linguistics.
 
 {%
   include button.html
@@ -60,7 +58,7 @@ Cinnamonlab conducts cutting-edge research in computational linguistics, AI inte
 
 {%
   include feature.html
-  image="images/stock_photo_math_ghibli.jpg"
+  image="images/stock_photo_math_ghibli_small.jpg"
   link="research"
   title="Research"
   text=text

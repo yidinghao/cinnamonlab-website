@@ -3,12 +3,14 @@
   publisher: EMNLP
   date: 2025-11-5
   tags: ai-society
+  presenter: Sophie Hao
 
 # ERAS
 - id: doi:10.18653/v1/2025.naacl-long.159
   publisher: NAACL
   date: 2025-4-30
   tags: ling-eval 
+  presenter: Qinchan Li
 
 # MORCELA
 - id: doi:10.18653/v1/2025.naacl-long.109
@@ -41,6 +43,7 @@
   date: 2024-5-22
   link: https://aclanthology.org/2024.lrec-main.1205
   tags: ai-society
+  presenter: Sophie Hao
 
 # BigBench
 - title: "Beyond the imitation game: Quantifying and extrapolating the capabilities of language models"
