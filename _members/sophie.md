@@ -6,8 +6,7 @@ role: principal-investigator
 affiliation: Linguistics/CDS
 links:
   home-page: https://www.notaphonologist.com
-  # orcid: 0000-0001-8033-0242
-  google-scholar: https://scholar.google.com/citations?user=fl7rVEYAAAAJ
+  google-scholar: fl7rVEYAAAAJ
 ---
 
 Sophie is a [Moorman–Simon](https://www.bu.edu/provost/awards-publications/award-opportunities/career-development-professorships/) assistant professor of [Linguistics](https://www.bu.edu/linguistics/) and [Data Science](https://www.bu.edu/cds-faculty/) at Boston University, and the PI of Cinnamonlab. Her research is on interpretability for natural language processing (NLP), with the aim of developing an interdisciplinary science of deep neural language models. Outside of work, Sophie is a recreational violinist, ballet dancer, and pizza critic.
