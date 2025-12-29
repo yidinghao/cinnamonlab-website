@@ -1,6 +1,7 @@
 ---
 name: William Merrill
-image: images/cinnalab_nobg.png
+image: images/people/will_ghibli.jpg
+image_small: images/people/will_ghibli_small.jpg
 role: faculty
 affiliation: AI2/TTIC
 links:
