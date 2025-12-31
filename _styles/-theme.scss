@@ -7,11 +7,11 @@
   --secondary: #eeaeca;
   --text: #2d2926;
   --background: #ffffff;
-  --background-alt: #EEAECA;
-  --background-alt: radial-gradient(circle,rgba(238, 174, 202, .4) 0%, rgba(148, 187, 233, .4) 100%);
-  --light-gray: rgba(45, 41, 38, .125); 
-  --gray: rgba(45, 41, 38, .5); 
-  --dark-gray: rgba(45, 41, 38, .75); 
+  --background-alt: #eeaeca;
+  --background-alt: radial-gradient(circle,#eeaeca66 0%, #94bbe966 100%);
+  --light-gray: #2d292620; 
+  --gray: #2d292680; 
+  --dark-gray: #2d2926bf; 
   --overlay: #00000020;
 }
 
@@ -20,20 +20,20 @@
   --secondary: #cc0000;
   --text: #ffffff;
   --background: #242629dd;
-  --background-alt: #247BA0;
-  --background-alt: radial-gradient(circle, rgba(36, 123, 160, .4) 0%, rgba(27, 153, 139, .4) 100%);
-  --light-gray: #ffffff40; //#404040;
-  --gray: #ffffff80; //#808080;
-  --dark-gray: #ffffffb0; //#b0b0b0;
+  --background-alt: #247ba0;
+  --background-alt: radial-gradient(circle, #247ba066 0%, #1b998b66 100%);
+  --light-gray: #ffffff40; 
+  --gray: #ffffff80; 
+  --dark-gray: #ffffffb0; 
   --overlay: #ffffff10;
 }
 
 :root {
   // font families
-  --title: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; //"Inter", sans-serif;
-  --heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; // "Inter", sans-serif;
-  --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; // "Inter", sans-serif;
-  --code: "Fira Code", monospace;
+  --title: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --code: monospace;
 
   // font sizes
   --large: 1.2rem;
@@ -43,8 +43,8 @@
   // font weights
   --thin: 200;
   --regular: 400;
-  --semi-bold: 500;
-  --bold: 600;
+  --semi-bold: 600;
+  --bold: 700;
 
   // text line spacing
   --spacing: 1.5;
