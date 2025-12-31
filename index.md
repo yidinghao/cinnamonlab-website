@@ -65,6 +65,31 @@ Our research focuses on six thematic areas: analysis of representations, linguis
   flip=true
 %}
 
+<!-- Join Us -->
+
+{% capture text %}
+ 
+Become a member of Cinnamonlab by applying to the Linguistics PhD program at BU.
+
+{%
+  include button.html
+  link="https://www.bu.edu/linguistics/academic-programs/graduate-programs/phd-in-linguistics/"
+  text="Apply now"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/stock_photo_cds_ghibli_small.jpg"
+  link="research"
+  title="Join Us"
+  text=text
+%}
+
 {% include section.html %}
 ## Learn More
 
