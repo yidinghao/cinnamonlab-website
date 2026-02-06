@@ -1,6 +1,7 @@
 ---
 name: Yukyung Lee
-image: images/cinnalab_nobg.png
+image: images/people/yukyung_ghibli.jpg
+image-small: images/people/yukyung_ghibli_small.jpg
 role: postdoc
 affiliation: Linguistics
 # group: alum
