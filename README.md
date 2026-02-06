@@ -5,6 +5,6 @@
 
   # yidinghao's Website
 
-  Visit **[cinnamonlab.ai](http://cinnamonlab.ai)** 🚀
+  Visit **[cinnamonlab.ai](https://cinnamonlab.ai)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
