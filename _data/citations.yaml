@@ -18,7 +18,7 @@
   file: sources.yaml
   tags: ai-society
   presenter: Sophie Hao
-- id: https://arxiv.org/abs/2601.01754
+- id: arxiv:2601.01754
   title: Context-Free Recognition with Transformers
   authors:
   - "S\xE9lim Jerad"
@@ -27,8 +27,8 @@
   - Ryan Cotterell
   - William Merrill
   publisher: arXiv
-  date: '2026-01-05'
-  link: http://arxiv.org/abs/2601.01754
+  date: '2026-01-06'
+  link: https://arxiv.org/abs/2601.01754
   tags:
   - formal-analysis
   plugin: sources.py
