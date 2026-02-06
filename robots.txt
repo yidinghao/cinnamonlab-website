@@ -1,1 +1,1 @@
-Sitemap: https://yidinghao.github.io/cinnamonlab-website/sitemap.xml
+Sitemap: http://cinnamonlab.ai/sitemap.xml
