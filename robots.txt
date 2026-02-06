@@ -1,1 +1,1 @@
-Sitemap: http://cinnamonlab.ai/sitemap.xml
+Sitemap: https://cinnamonlab.ai/sitemap.xml
