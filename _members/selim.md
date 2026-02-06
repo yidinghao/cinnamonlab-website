@@ -1,5 +1,5 @@
 ---
-name: Selim Jerad
+name: Sélim Jerad
 image: images/cinnalab_nobg.png
 role: ms-alum
 affiliation: ETH Zürich

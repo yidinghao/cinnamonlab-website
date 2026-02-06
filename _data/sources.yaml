@@ -1,3 +1,15 @@
+# Selim
+- id: https://arxiv.org/abs/2601.01754
+  authors:
+   - Sélim Jerad
+   - Anej Svete
+   - Sophie Hao
+   - Ryan Cotterell
+   - William Merrill
+  tags:
+   - formal-analysis
+
+
 # ModelCitizens
 - id: doi:10.18653/v1/2025.emnlp-main.1571
   publisher: EMNLP
