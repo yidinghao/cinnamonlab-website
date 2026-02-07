@@ -3,7 +3,7 @@
 
 # Towards a Linguistics of AI
 
-Cinnamonlab is a computational linguistics research group at Boston University led by [Sophie Hao](https://www.notaphonologist.com). Cinnamonlab takes an interdisciplinary approach to language model interpretability and its applications, incorporating ideas and perspectives from across the sciences, social sciences, and humanities. Our goal is to develop a linguistics of AI language models.
+Cinnamonlab is a computational linguistics research group at Boston University led by [Sophie Hao](https://www.notaphonologist.com). Cinnamonlab takes an interdisciplinary approach to language model interpretability and its applications, incorporating ideas and perspectives from across the sciences, social sciences, and humanities. Our goal is to develop a [linguistics of AI language models](https://cinnamonlab.ai/2025/12/27/linguistics-of-ai.html).
 
 Cinnamonlab is affiliated with the [Department of Linguistics](https://www.bu.edu/linguistics/), the [Faculty of Computing and Data Sciences](https://www.bu.edu/cds/), and the SALAMI Consortium.
 
