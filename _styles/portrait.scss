@@ -59,6 +59,7 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  background-color: var(--background);
 }
 
 .portrait[data-style="tiny"] .portrait-image {
