@@ -4,6 +4,7 @@ image: images/people/sophie_ghibli.jpg
 image-small: images/people/sophie_ghibli_small.jpg
 role: principal-investigator
 affiliation: Linguistics/CDS
+group: member
 links:
   home-page: https://www.notaphonologist.com
   google-scholar: fl7rVEYAAAAJ

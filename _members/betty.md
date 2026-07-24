@@ -3,6 +3,7 @@ name: Betty Li Hou
 image: images/people/betty_ghibli.jpg
 image-small: images/people/betty_ghibli_small.jpg
 role: phd
+group: member
 affiliation: New York University
 # group: alum
 links:

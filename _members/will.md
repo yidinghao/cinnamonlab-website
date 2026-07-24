@@ -4,6 +4,7 @@ image: images/people/will_ghibli.jpg
 image_small: images/people/will_ghibli_small.jpg
 role: faculty
 affiliation: AI2/TTIC
+group: member
 links:
   home-page: https://lambdaviking.com/
   google-scholar: CyjChJQAAAAJ

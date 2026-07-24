@@ -1,5 +1,18 @@
+# econ
+- id: arxiv:2605.16430
+  tags: 
+  - ai-society
+  - foundations
+   
+# betty
+- id: arxiv:2606.29121
+  tags: 
+  - ai-society
+
 # Selim
 - id: arxiv:2601.01754
+  publisher: ICML
+  date: 2026-7-9
   authors:
    - Sélim Jerad
    - Anej Svete
