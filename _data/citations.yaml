@@ -18,6 +18,33 @@
   file: sources.yaml
   tags: ai-society
   presenter: Sophie Hao
+- id: arxiv:2605.16430
+  title: A Theory of Training Profit-Optimal LLMs
+  authors:
+  - Sophie Hao
+  - William Merrill
+  publisher: arXiv
+  date: '2026-06-12'
+  link: https://arxiv.org/abs/2605.16430
+  tags:
+  - ai-society
+  - foundations
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2606.29121
+  title: How Anthropomorphic Language Impacts Public Perceptions of AI
+  authors:
+  - Betty Li Hou
+  - Sophie Hao
+  - Sunoo Park
+  - Tal Linzen
+  publisher: arXiv
+  date: '2026-06-30'
+  link: https://arxiv.org/abs/2606.29121
+  tags:
+  - ai-society
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2601.01754
   title: Context-Free Recognition with Transformers
   authors:
@@ -26,8 +53,8 @@
   - Sophie Hao
   - Ryan Cotterell
   - William Merrill
-  publisher: arXiv
-  date: '2026-01-06'
+  publisher: ICML
+  date: '2026-07-09'
   link: https://arxiv.org/abs/2601.01754
   tags:
   - formal-analysis
