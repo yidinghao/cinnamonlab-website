@@ -90,12 +90,14 @@
   - foundations
   plugin: sources.py
   file: sources.yaml
-- title: Generative linguistics, Large Language Models, and the social nature of scientific
+- id: doi:10.26346/1120-2726-242
+  title: Generative linguistics, Large Language Models, and the social nature of scientific
     success
-  authors: Sophie Hao
+  authors:
+  - Sophie Hao
   publisher: Italian Journal of Linguistics
-  date: '2025-07-01'
-  link: https://www.italian-journal-linguistics.com/app/uploads/2025/09/06-Hao.pdf
+  date: '2025-01-01'
+  link: https://doi.org/hcchxb
   tags:
   - linguistics
   - foundations
