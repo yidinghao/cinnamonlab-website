@@ -11,4 +11,8 @@ Cinnamonlab members come from BU’s Department of Linguistics and Faculty of Co
 
 {% include section.html %}
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and group != 'alum'" %}
+
+{% include section.html %}
+## Alumni
+{% include list.html data="members" component="portrait" filter="group == 'alum'" %}
