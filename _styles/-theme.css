@@ -1,10 +1,9 @@
 [data-dark=false] {
   --primary: #cc0000;
   --secondary: #eeaeca;
-  --text: #2d2926;
-  --background: #ffffff;
-  --background-alt: #eeaeca;
-  --background-alt: radial-gradient(circle,#eeaeca66 0%, #94bbe966 100%);
+  --text: rgb(0, 0, 0, .8);
+  --background: #faf8f3;
+  --background-alt: #f2ede2;
   --light-gray: #2d292620;
   --gray: #2d292680;
   --dark-gray: #2d2926bf;
