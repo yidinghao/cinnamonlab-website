@@ -1,10 +1,7 @@
+# Cinnamonlab Website
 
-  ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
-  ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
-  ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
+To test the site locally:
+```bash
+sudo .docker/run.sh
+```
 
-  # yidinghao's Website
-
-  Visit **[cinnamonlab.ai](https://cinnamonlab.ai)** 🚀
-
-  _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
