@@ -68,13 +68,22 @@ jobs:
           file_pattern: "**/.cache/**"
           commit_message: "Commit cache"
 
+      # - name: Check if citations changed
+      #   if: github.event.action != 'closed'
+      #   id: changed
+      #   uses: tj-actions/verify-changed-files@v18
+      #   with:
+      #     files: |
+      #       _data/citations.yaml
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@v18
-        with:
-          files: |
-            _data/citations.yaml
+        run: |
+          if [ -n "$(git status --porcelain _data/citations.yaml)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit updated citations to branch
         if: |
