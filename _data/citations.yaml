@@ -18,12 +18,25 @@
   file: sources.yaml
   tags: ai-society
   presenter: Sophie Hao
+- id: arxiv:2608.27855
+  title: AI Writers Have a Consistent Stylometric Footprint, but AI Editors Do Not
+  authors:
+  - Zhengyang Shan
+  - Yukyung Lee
+  - Sophie Hao
+  publisher: EMNLP (To Appear)
+  date: '2026-10-25'
+  link: https://arxiv.org/abs/2608.27855
+  tags:
+  - ling-eval
+  plugin: sources.py
+  file: sources.yaml
 - id: arxiv:2605.16430
   title: A Theory of Training Profit-Optimal LLMs
   authors:
   - Sophie Hao
   - William Merrill
-  publisher: arXiv
+  publisher: NeurIPS (To Appear)
   date: '2026-06-12'
   link: https://arxiv.org/abs/2605.16430
   tags:
