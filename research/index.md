@@ -20,9 +20,11 @@ Cinnamonlab conducts cutting-edge research in computational linguistics, interpr
 
 {% include search-info.html %}
 
+<!-- {% include list.html data="citations" component="citation" style="rich" %} -->
+<!-- This is the version with no image for each citation -->
 {% include list.html data="citations" component="citation" style="rich" %}
 
 {% include section.html %}
 ## Invited Talks
 
-{% include list.html data="talks" component="talk" style="rich" %}
+{% include list.html data="talks" component="talk" %}
