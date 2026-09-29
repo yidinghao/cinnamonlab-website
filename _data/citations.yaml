@@ -29,6 +29,7 @@
   link: https://arxiv.org/abs/2608.27855
   tags:
   - ling-eval
+  - ai-society
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2605.16430
